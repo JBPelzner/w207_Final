@@ -2,10 +2,11 @@
 
 ## Introduction/Business Problem
 
-With the rise of new regulations, such as GDPR, privacy compliance organizatios will need to forecast their future workflows. In order to to complete and review permissions requests for mobile applications worldwide, privacy compliance organizations will need to hire compliance analysts, which affects their labor expenditures. We want to help these organizations with these forecasting tasks. We decided to focus on android apps in particular.
+With the rise of new regulations, such as GDPR, privacy compliance organizations will need to forecast their future workflows. In order to complete and review permissions requests for mobile applications worldwide, privacy compliance organizations will need to hire compliance analysts, which affects their labor expenditures. We want to help these organizations with these forecasting tasks. We decided to focus on android apps in particular.
 
 ## Data Cleaning
-We imported our data, and upon veiwing the first 5 rows, observed that a blank column named "unnamed 6" contained null values. As such, we removed that column. We also obvserved that the data was out of order. As such, we merged our data by renaming some of the columns associated with post gdp data.
+
+We imported our data, and upon viewing the first 5 rows, observed that a blank column named "unnamed 6" contained null values. As such, we removed that column. We also observed that the data was out of order. As such, we merged our data and organized it by renaming some of the columns associated with post gdpr data. With the data merged accordingly, we are ready for EDA
 
 ## EDA
 Our data contains the following variables: 
@@ -22,6 +23,18 @@ post_permission_count: Number of permissions requested made by the app company a
 ### Correlation Matrix
 In an effort to observe relationships between our variables, we produce the below correlation matrix:
 
+### Visualizations
+
 ## Machine Learning Models
+
 ### Model 1
-## Conclusion
+The goal of our first model is to predict the number of permissions requests. 
+Apply regularization weights?
+
+### Model 2
+The goal of our second model is to predict the type of permissions requests.
+
+### Model 3
+The goal of our third model is to predict the app’s category.
+
+## Conclusions
