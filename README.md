@@ -20,21 +20,12 @@ pre_permission_count:	Number of permissions requested made by the app company be
 post_gdpr.permissions: Types of permissions requested by the app company after GDPR was enacted.
 post_permission_count: Number of permissions requested made by the app company after GDPR was enacted.
 
-### Correlation Matrix
-In an effort to observe relationships between our variables, we produce the below correlation matrix:
-
-### Visualizations
-
-## Machine Learning Models
 
 ### Model 1
 The goal of our first model is to predict the number of permissions requests. 
-Apply regularization weights?
+
 
 ### Model 2
-The goal of our second model is to predict the type of permissions requests.
+The goal of our second model is to predict the number of dangerous permissions requests.
 
-### Model 3
-The goal of our third model is to predict the app’s category.
 
-## Conclusions
